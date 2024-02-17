@@ -1,0 +1,24 @@
+body {
+  background-color: #f1e3d6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, li::marker {
+  color: #2E1F27;
+}
+
+a, h2 {
+  color: #bd6f2f;
+}
+
+h2 {
+  text-decoration: underline #2E1F27;
+}
+
+li, p {
+  color: #4e3f38;
+}
+
+img {
+  box-shadow: 5px 5px 5px #8b8b8b;
+}
