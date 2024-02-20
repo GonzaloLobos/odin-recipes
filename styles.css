@@ -1,6 +1,13 @@
+/* GENERAL STYLES */
+
 body {
-  background-color: #f1e3d6;
+  background-color: #f5caa6;
+  background-image: url("./images/kitchen.jpg");
+  background-size: cover;
+  background-blend-mode: lighten;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin: 0px;
 }
 
 h1, li::marker {
@@ -19,6 +26,50 @@ li, p {
   color: #4e3f38;
 }
 
-img {
-  box-shadow: 5px 5px 5px #8b8b8b;
+/* HOME PAGE STYLES */
+
+.home {
+  margin: 40px 20%;
+  padding: 10px 0px 0px;
+  background-color: white;
+}
+
+.home-links {
+  list-style: none;
+  padding: 0px;
+}
+
+.home-links li {
+  display: inline-block;
+  margin: 20px;
+}
+
+.home-links a {
+  display: inline-block;
+  background-color: #f1c8a688;
+  padding: 20px 40px;
+  text-decoration: none;
+}
+
+.home-links a:hover {
+  background-color: #f1c8a6;
+}
+
+/* RECIPE PAGE STYLES */
+
+.main-container {
+  background-color: white;
+  margin: 0px 20%;
+  padding: 10px 20px 30px;
+}
+
+.main-container img {
+  box-shadow: 5px 5px 5px #c2c2c2;
+  width: 90%;
+  height: auto;
+}
+
+.recipe-body {
+  text-align: left;
+  padding: 20px;
 }
